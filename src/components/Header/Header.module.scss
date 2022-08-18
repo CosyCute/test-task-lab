@@ -1,0 +1,30 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    background-color: #9cb1f0;
+    button {
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+        svg {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    .notificationsLength{
+        position: absolute;
+        right: 22px;
+        top: 22px;
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+        padding: 3px;
+        width: 21px;
+        height: 21px;
+    }
+}

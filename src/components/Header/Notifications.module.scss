@@ -1,0 +1,40 @@
+.container{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    padding: 30px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    max-height: 600px;
+    .item{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        .content{
+            h5{
+                font-size: 20px;
+            }
+            span{
+                margin-left: 10px;
+            }
+        }
+        .buttons{
+            margin: auto 0;
+            display: flex;
+            button:hover{
+                background-color: gray;
+            }
+            button{
+                transition-duration: 0.2s;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
